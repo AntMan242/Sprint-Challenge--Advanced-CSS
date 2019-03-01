@@ -11,10 +11,6 @@
     p {
       padding:0 15px;
     }
-
-    h1 {
-      .center();
-    }
   
   }
 
@@ -61,8 +57,6 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-      }
     }
 
     .walk-img {
@@ -75,5 +69,11 @@
         border-radius: 10px;
       }
     }
+  }
+  .btn {
+    .custom-btn(85px, 25px, @btn-bg-color, @porcelain);
+    border-radius: 5px;
+    .center();
+    font-size: 1.5rem;
   }
 }// home
